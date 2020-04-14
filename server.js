@@ -23,7 +23,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/transaction", {
 });
 
 //for heroku
-mongoose.connect(process.env.MONGODB_URI || "mongodb://<heroku_szpf1gfd>:<dbpassword>@ds119489.mlab.com:19489/heroku_szpf1gfd", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://anushaodilzoda:Anushaj0n@ds053648.mlab.com:53648/heroku_c5zgjq4h", {
   useNewUrlParser: true,
   useFindAndModify: false
 });
