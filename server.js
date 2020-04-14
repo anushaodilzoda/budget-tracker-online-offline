@@ -22,7 +22,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/transaction", {
   useFindAndModify: false
 });
 
-//for heroku
+//for heroku use
 mongoose.connect(process.env.MONGODB_URI || "mongodb://anushaodilzoda:Anushaj0n@ds053648.mlab.com:53648/heroku_c5zgjq4h", {
   useNewUrlParser: true,
   useFindAndModify: false
